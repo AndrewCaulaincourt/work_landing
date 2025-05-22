@@ -1,0 +1,296 @@
+body {
+  background-color: #ededed;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.header {
+  margin-top: 34px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1201px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 80px;
+  height: 80px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 20px;
+  size: 16px;
+}
+
+.header__menu a {
+  color: #2b2b2b;
+}
+
+.header__button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #423f3e;
+  padding: 11px 15px 11px;
+  border-radius: 5px;
+}
+
+.section-container {
+  padding: 229px 0 331px 0;
+}
+
+.section-container .container {
+  max-width: 960px;
+}
+
+.section-container__heading {
+  font-size: 64px;
+  font-weight: 700;
+  color: #2b2b2b;
+  text-align: center;
+  margin-bottom: 31px;
+  line-height: 120%;
+}
+
+.section-container__description {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2b2b2b;
+  text-align: center;
+  line-height: 120%;
+}
+
+.section-features {
+  padding-bottom: 100px;
+}
+
+.section-features__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-features__intro {
+  padding-bottom: 60px;
+}
+
+.section-features__title {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.section-features__items {
+  display: flex;
+  gap: 54px;
+}
+
+.section-features__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.section-features__text {
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.section-features__link {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-features__img img {
+  max-width: 534px;
+  height: auto;
+}
+
+.section-link__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-link__specification {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-link__title {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 39px;
+}
+
+.section-link__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-link__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.section-link__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-link__item {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 100%;
+}
+
+.section-reference__row {
+  display: flex;
+  flex-direction: row;
+  width: 1201px;
+  height: 214px;
+  margin: auto;
+  margin-top: 145px;
+  gap: 88px;
+}
+
+.section-reference__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-reference__title {
+  font-weight: 700px;
+  font-size: 25px;
+  line-height: 100%;
+}
+
+.section-reference__description {
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.section-reference__img {
+  display: flex;
+  gap: 59.92px;
+  margin: auto;
+}
+
+.section-reference__images-png {
+  width: 240.4px;
+  height: 214px;
+  border-radius: 5px;
+}
+
+.section-card {
+  padding-top: 81px;
+}
+
+.section-card__title {
+  font-weight: 700;
+  font-size: 53px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.section-card__body {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 81px;
+  gap: 95px;
+}
+
+.section-card__item {
+  display: flex;
+  flex-direction: column;
+  width: 434px;
+  gap: 20px;
+  padding: 60px;
+  border: 0 solid #ccc;
+  box-shadow: 0 0 40px rgba(57, 40, 166, 0.15);
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+
+.section-card__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-card__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-card__role {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/* Подвал сайта */
+.footer {
+  padding-top: 97px;
+  padding-bottom: 39px;
+}
+
+.section-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo img {
+  width: 81px;
+  height: 116px;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20.29px;
+}
+
+.footer__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.footer__social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__social-icon {
+  height: 28px;
+}
+
+.footer__copyright {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+}
